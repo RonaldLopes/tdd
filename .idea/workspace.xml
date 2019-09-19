@@ -124,6 +124,17 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 45m 35s.xml">
+      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 45m 57s.xml">
+      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 46m 04s.xml">
+      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="716" extended-state="6" />
     <layout>
