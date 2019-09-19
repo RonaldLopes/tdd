@@ -17,5 +17,5 @@ class TesteSerial(unittest.TestCase):
     def teste_processa_dados_brutos(self):
         pass
 
-    def teste_obter_serial(self):
+    def teste_obter_brutos(self):
         pass
