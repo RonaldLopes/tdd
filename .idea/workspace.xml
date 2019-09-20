@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a321c761-13f7-48ad-af8d-72da9aa6ecac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/documentação.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/documentação.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testes/TesteSerial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/TesteSerial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,15 +13,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testes/TesteSerial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="233">
+              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
-                <element signature="e#1#16#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testes/serial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="96" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testes/Classe_Comunicacao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -41,15 +69,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Testes/SerialTeste.py" />
+        <option value="$PROJECT_DIR$/Testes/serial.py" />
+        <option value="$PROJECT_DIR$/Testes/Classe_Comunicacao.py" />
         <option value="$PROJECT_DIR$/Testes/TesteSerial.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="770" />
+    <option name="y" value="63" />
+    <option name="width" value="1346" />
+    <option name="height" value="582" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,6 +93,11 @@
             <path>
               <item name="trabalhoTDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalhoTDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trabalhoTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trabalhoTDD" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trabalhoTDD" type="b2602c69:ProjectViewProjectNode" />
@@ -97,7 +131,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for TesteSerial.Teste_Comunicacao">
+    <configuration name="Classe_Comunicacao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trabalhoTDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testes/Classe_Comunicacao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,8 +167,54 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for TesteSerial.Teste_Comunicacao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="trabalhoTDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TesteSerial.Teste_Comunicacao&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="trabalhoTDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TesteSerial.Teste_Comunicacao.teste_ler_serial&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="trabalhoTDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TesteSerial.Teste_Comunicacao" />
+        <item itemvalue="Python tests.Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" />
+        <item itemvalue="Python tests.Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial" />
+        <item itemvalue="Python.Classe_Comunicacao" />
         <item itemvalue="Python tests.Unittests for TesteSerial.TesteSerial.teste_ler_serial" />
       </list>
     </recent_temporary>
@@ -132,34 +233,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 45m 35s.xml">
-      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 39m 55s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 45m 57s.xml">
-      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 40m 21s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteSerial_TesteSerial_teste_ler_serial - 2019.09.19 at 10h 46m 04s.xml">
-      <configuration name="Unittests for TesteSerial.TesteSerial.teste_ler_serial" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 40m 34s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 40m 37s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 41m 19s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 41m 31s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 41m 47s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 41m 58s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 42m 14s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteSerial_Teste_Comunicacao_teste_ler_serial_verifica_integridade - 2019.09.20 at 11h 42m 18s.xml">
+      <configuration name="Unittests for TesteSerial.Teste_Comunicacao.teste_ler_serial_verifica_integridade" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33044982" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298791" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33044982" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -168,17 +290,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/trabalhoTDD/lib/python3.5/site-packages/serial/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1043" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/trabalhoTDD/lib/python3.5/site-packages/serial/serialjava.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1590">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/trabalhoTDD/lib/python3.5/site-packages/serial/serialutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testes/Classe_Comunicacao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testes/serial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="96" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testes/TesteSerial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="233">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="e#1#16#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
