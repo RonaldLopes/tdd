@@ -1,4 +1,4 @@
-from Testes.serial import Serial
+from Duble.serial import Serial
 
 
 class Classe_Comunicacao:

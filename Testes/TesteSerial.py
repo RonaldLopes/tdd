@@ -2,7 +2,7 @@ import unittest
 
 from should_dsl import should
 
-from Testes.Classe_Comunicacao import *
+from Controller.Classe_Comunicacao import *
 
 
 
