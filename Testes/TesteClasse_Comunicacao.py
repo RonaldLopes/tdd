@@ -20,7 +20,14 @@ class Teste_Comunicacao(unittest.TestCase):
         leitura |should| be_like(r'^ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+$')
 
     def teste_formatar_pacote(self):
-        pass
+        s = Classe_Comunicacao()
+        pacote = s.formatar_pacote(s.ler_serial())
+        pacote |should| be_kind_of(list)
+
+        for dicionario in pacote:
+            dicionario |should| be_kind_of(dict)
 
     def teste_obter_brutos(self):
-        pass
+        s = Classe_Comunicacao()
+        retorno = s.obter_dados_brutos()
+        retorno |should| be_kind_of(list)
