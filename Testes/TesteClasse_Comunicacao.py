@@ -17,7 +17,7 @@ class Teste_Comunicacao(unittest.TestCase):
     def teste_ler_serial_verifica_integridade(self):
         s = Classe_Comunicacao()
         leitura =  s.ler_serial()
-        leitura |should| be_like(r'^ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temp:[0-9]+.[0-9]+$')
+        leitura |should| be_like(r'^ID:[123]+,angulo:[0-9]+.[0-9]+,temperatura:[0-9]+.[0-9]+,tempo:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temperatura:[0-9]+.[0-9]+,tempo:[0-9]+.[0-9]+[|]ID:[123]+,angulo:[0-9]+.[0-9]+,temperatura:[0-9]+.[0-9]+,tempo:[0-9]+.[0-9]+$')
 
     def teste_formatar_pacote(self):
         s = Classe_Comunicacao()
