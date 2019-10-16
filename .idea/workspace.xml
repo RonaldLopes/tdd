@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a321c761-13f7-48ad-af8d-72da9aa6ecac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controller/Classe_OBJ_Detec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Classe_Posicionamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Classe_Posicionamento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Duble/serial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Duble/serial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/calculo_posicionamento.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/calculo_posicionamento.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/documentação.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/documentação.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Duble/serial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+            <state relative-caret-position="439">
+              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -49,29 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/Classe_Posicionamento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="720">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/Classe_Comunicacao.py">
+        <entry file="file://$PROJECT_DIR$/Controller/Classe_OBJ_Detec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,6 +72,7 @@
         <option value="$PROJECT_DIR$/Controller/Classe_Comunicacao.py" />
         <option value="$PROJECT_DIR$/Duble/serial.py" />
         <option value="$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py" />
+        <option value="$PROJECT_DIR$/Controller/Classe_OBJ_Detec.py" />
         <option value="$PROJECT_DIR$/Controller/Classe_Posicionamento.py" />
         <option value="$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py" />
       </list>
@@ -173,8 +148,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia">
-    <configuration name="Unittests for TesteClasse_Comunicacao.Teste_Comunicacao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos">
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +159,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Comunicacao.Teste_Comunicacao&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TesteClasse_Comunicacao.Teste_Comunicacao.teste_ler_serial_verifica_integridade" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas_negativo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +173,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Comunicacao.Teste_Comunicacao.teste_ler_serial_verifica_integridade&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas_negativo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,11 +187,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +201,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcula_velocidade_do_som" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcular_coordenadas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,17 +215,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcula_velocidade_do_som&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcular_coordenadas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" />
-        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcula_velocidade_do_som" />
-        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" />
-        <item itemvalue="Python tests.Unittests for TesteClasse_Comunicacao.Teste_Comunicacao" />
-        <item itemvalue="Python tests.Unittests for TesteClasse_Comunicacao.Teste_Comunicacao.teste_ler_serial_verifica_integridade" />
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" />
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" />
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcular_coordenadas" />
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas_negativo" />
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_coordenadas" />
       </list>
     </recent_temporary>
   </component>
@@ -268,52 +243,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_velocidade_do_som - 2019.10.01 at 11h 16m 46s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_tipo_retorno_calcular_coordenadas - 2019.10.11 at 11h 04m 36s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_velocidade_do_som - 2019.10.01 at 11h 17m 17s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 08m 42s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_velocidade_do_som - 2019.10.01 at 11h 17m 26s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 08m 50s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_velocidade_do_som - 2019.10.01 at 11h 17m 57s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_velocidade_do_som" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 08m 54s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_tipo_retorno_calcula_velocidade_do_som - 2019.10.01 at 11h 23m 58s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_tipo_retorno_calcula_velocidade_do_som" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 15m 45s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_distancia - 2019.10.01 at 11h 28m 14s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 15m 51s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_distancia - 2019.10.01 at 11h 29m 11s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 16m 40s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_distancia - 2019.10.01 at 11h 30m 04s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 16m 43s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_distancia - 2019.10.01 at 11h 30m 15s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_limite_coordenada_calcular_coordenadas - 2019.10.11 at 11h 17m 08s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_limite_coordenada_calcular_coordenadas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcula_distancia - 2019.10.01 at 11h 30m 31s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcula_distancia" configurationId="tests" />
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_solicita_id_objetos - 2019.10.11 at 11h 56m 33s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="716" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965398" visible="true" weight="0.24944155" />
+      <window_info id="Structure" order="1" sideWeight="0.5034602" side_tool="true" visible="true" weight="0.24944155" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32871974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32698962" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32642487" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -328,17 +303,20 @@
     <entry file="file://$PROJECT_DIR$/Duble/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Classe_Comunicacao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,20 +327,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Comunicacao.py">
+    <entry file="file://$PROJECT_DIR$/Controller/Classe_Comunicacao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/462174422/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="344" column="4" selection-start-line="344" selection-start-column="4" selection-end-line="344" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+        <state relative-caret-position="439">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -371,8 +353,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/Classe_Posicionamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="720">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Classe_OBJ_Detec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
