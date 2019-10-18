@@ -1,4 +1,3 @@
-
 import math
 from Controller.Classe_OBJ_Detec import Classe_OBJ_Detec
 
@@ -21,14 +20,14 @@ class Classe_Posicionamento:
             distancia_obj = self.calcula_distancia(velocidade_som,dado["tempo"])
 
             if dado["ID"] == 1:
-                coordenada_x = distancia_obj * math.cos(math.radians(dado["angulo"]))
-                coordenada_y = distancia_obj * math.sin(math.radians(dado["angulo"]))
+                coordenada_x = float("{0:.4f}".format(distancia_obj * math.cos(math.radians(dado["angulo"]))))
+                coordenada_y = float("{0:.4f}".format(distancia_obj * math.sin(math.radians(dado["angulo"]))))
             elif dado["ID"] == 2:
-                coordenada_x = distancia_obj * math.sin(math.radians(dado["angulo"]))
-                coordenada_y = self.distancia_S1_S2 - (distancia_obj * math.cos(math.radians(dado["angulo"])))
+                coordenada_x = float("{0:.4f}".format(distancia_obj * math.sin(math.radians(dado["angulo"]))))
+                coordenada_y = float("{0:.4f}".format(self.distancia_S1_S2 - (distancia_obj * math.cos(math.radians(dado["angulo"])))))
             elif dado["ID"] == 3:
-                coordenada_x = self.distancia_S2_S3 - (distancia_obj * math.cos(math.radians(dado["angulo"])))
-                coordenada_y = self.distancia_S1_S2 - (distancia_obj * math.sin(math.radians(dado["angulo"])))
+                coordenada_x = float("{0:.4f}".format(self.distancia_S2_S3 - (distancia_obj * math.cos(math.radians(dado["angulo"])))))
+                coordenada_y = float("{0:.4f}".format(self.distancia_S1_S2 - (distancia_obj * math.sin(math.radians(dado["angulo"])))))
 
             coordenadas.append({"x": coordenada_x,"y":coordenada_y})
         return coordenadas

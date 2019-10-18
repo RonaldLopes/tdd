@@ -8,3 +8,12 @@ class Classe_OBJ_Detec:
             valor = valor + 1
 
         return coordenadas
+
+    def identificar_pontos_proximos(self, coordenadas):
+        pass
+
+    def aproximar_coordenadas(self):
+        pass
+
+    def rotular_coordenadas(self):
+        pass

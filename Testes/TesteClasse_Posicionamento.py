@@ -94,4 +94,23 @@ class TesteClasse_Posicionamento(unittest.TestCase):
         coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
 
         objetos = posicionamento.solicita_ID_objetos(coordenadas)
-        print(objetos)
+
+        objetos | should | be_kind_of(list)
+
+        for obj in objetos:
+            obj | should | be_kind_of(dict)
+
+    def teste_solicita_id_objetos(self):
+        posicionamento = Classe_Posicionamento(distancia_S1_S2=45.0, distanciaS2_S3=30.0)
+        dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0, 'tempo': 0.2},
+                        {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0, 'tempo': 0.02},
+                        {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0, 'tempo': 0.03}]
+        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+
+        objetos = posicionamento.solicita_ID_objetos(coordenadas)
+
+        for obj in objetos:
+            obj |should| include_keys('OBJ')
+
+
+
