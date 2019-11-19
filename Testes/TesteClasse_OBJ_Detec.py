@@ -69,3 +69,6 @@ class TesteClasse_OBJ_Detec(unittest.TestCase):
         obj_detec = Classe_OBJ_Detec()
         coordenadas = [{'x': 24.4861, 'y': 24.4861}, {'x': 3.024, 'y': 43.2541}, {'x': 25.4417, 'y': 25.3682}]
         coordenadas_processadas = obj_detec.identificar_objetos(coordenadas)
+
+        for ponto in coordenadas_processadas:
+            ponto  | should | be_kind_of(dict)

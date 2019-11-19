@@ -11,7 +11,7 @@ class Classe_Posicionamento:
         self.distancia_S1_S2 = distancia_S1_S2
         self.distancia_S2_S3 = distancia_S2_S3
 
-    def calcula_coordenadas(self, dados_brutos):
+    def calcular_posicionamento(self, dados_brutos):
 
         coordenadas = []
 
@@ -49,8 +49,8 @@ class Classe_Posicionamento:
 
         return detector_objetos.identificar_objetos(coordenadas)
 
-    def calcular_posicionamento(self,dados_brutos):
-        pass
+
+
 
 # posicionamento = Classe_Posicionamento(distancia_S1_S2=45.0, distanciaS2_S3=30.0)
 # dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo':0.3},

@@ -7,13 +7,18 @@ from Controller.Classe_Comunicacao import *
 
 class TesteClasse_Posicionamento(unittest.TestCase):
 
-    def teste_calcular_posicionamento(self):
-        posicionamento = Classe_Posicionamento(distancia_S1_S2 = 0.0, distanciaS2_S3 = 0.0)
+
+
+
+    def teste_mudanca_de_margem_calcular_posicionamento(self):
+        posicionamento = Classe_Posicionamento(distancia_S1_S2 = 33.9, distanciaS2_S3 = 45.6)
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo':0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0,'tempo':0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0,'tempo':0.03}]
+        dist1 = 35.7
+        dist2 = 45.6
         objetos = posicionamento.calcular_posicionamento(dados_brutos)
-
+        (lambda: posicionamento.definir_margem_mapeamento(dist1,dist2)) | should | change((lambda: posicionamento.calcular_posicionamento(dados_brutos)))
 
 
     def teste_definir_margem_mapeamento(self):
@@ -49,34 +54,34 @@ class TesteClasse_Posicionamento(unittest.TestCase):
         distancia = posicionamento.calcula_distancia(velocidade_som = 343.0, tempo_de_resposta = 1)
         distancia |should_not| be_less_than(0)
 
-    def teste_calcular_coordenadas_negativo(self):
+    def teste_calcular_posicionamento_negativo(self):
         posicionamento = Classe_Posicionamento(distancia_S1_S2=45.0, distanciaS2_S3=30.0)
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo': 0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0,'tempo': 0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0,'tempo': 0.03}]
-        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+        coordenadas = posicionamento.calcular_posicionamento(dados_brutos)
 
         for ponto in coordenadas:
             ponto['x'] |should_not| be_less_than(0)
             ponto['y'] | should_not | be_less_than(0)
 
-    def teste_tipo_retorno_calcular_coordenadas(self):
+    def teste_tipo_retorno_calcular_posicionamento(self):
         posicionamento = Classe_Posicionamento(distancia_S1_S2=45.0, distanciaS2_S3=30.0)
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo': 0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0,'tempo': 0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0,'tempo': 0.03}]
-        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+        coordenadas = posicionamento.calcular_posicionamento(dados_brutos)
 
         for ponto in coordenadas:
             ponto['x'] |should| be_kind_of(float)
             ponto['y'] |should| be_kind_of(float)
 
-    def teste_limite_coordenada_calcular_coordenadas(self):
+    def teste_limite_coordenada_calcular_posicionamento(self):
         posicionamento = Classe_Posicionamento(distancia_S1_S2=45.0, distanciaS2_S3=30.0)
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo': 0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0,'tempo': 0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0,'tempo': 0.03}]
-        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+        coordenadas = posicionamento.calcular_posicionamento(dados_brutos)
 
         for ponto in coordenadas:
             ponto['x'] |should| be_greater_than(0.0)
@@ -91,7 +96,7 @@ class TesteClasse_Posicionamento(unittest.TestCase):
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0, 'tempo': 0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0, 'tempo': 0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0, 'tempo': 0.03}]
-        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+        coordenadas = posicionamento.calcular_posicionamento(dados_brutos)
 
         objetos = posicionamento.solicita_ID_objetos(coordenadas)
 
@@ -105,7 +110,7 @@ class TesteClasse_Posicionamento(unittest.TestCase):
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0, 'tempo': 0.2},
                         {'temperatura': 30.0, 'angulo': 60.0, 'ID': 2.0, 'tempo': 0.02},
                         {'temperatura': 33.0, 'angulo': 30.0, 'ID': 3.0, 'tempo': 0.03}]
-        coordenadas = posicionamento.calcula_coordenadas(dados_brutos)
+        coordenadas = posicionamento.calcular_posicionamento(dados_brutos)
 
         objetos = posicionamento.solicita_ID_objetos(coordenadas)
 
