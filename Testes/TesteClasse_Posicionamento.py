@@ -7,9 +7,6 @@ from Controller.Classe_Comunicacao import *
 
 class TesteClasse_Posicionamento(unittest.TestCase):
 
-
-
-
     def teste_mudanca_de_margem_calcular_posicionamento(self):
         posicionamento = Classe_Posicionamento(distancia_S1_S2 = 33.9, distanciaS2_S3 = 45.6)
         dados_brutos = [{'temperatura': 25.0, 'angulo': 45.0, 'ID': 1.0,'tempo':0.2},

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a321c761-13f7-48ad-af8d-72da9aa6ecac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Classe_Posicionamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Classe_Posicionamento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/documentação.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/documentação.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes/TesteClasse_OBJ_Detec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/TesteClasse_OBJ_Detec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Controlador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="420">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -100,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_posicionamento">
+  <component name="RunManager" selected="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento">
     <configuration name="Unittests for TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_posicionamento" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,20 +167,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_posicionamento&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_serial" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="trabalhoTDD" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_serial&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -216,6 +198,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="trabalhoTDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="trabalhoTDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento" />
         <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_posicionamento" />
         <item itemvalue="Python tests.Unittests for TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_posicionamento" />
         <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento" />
         <item itemvalue="Python tests.Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" />
-        <item itemvalue="Python tests.Unittests for TesteClasse_Controlador.TesteClasse_Controlador.teste_solicita_dados_serial" />
       </list>
     </recent_temporary>
   </component>
@@ -254,15 +250,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_solicita_id_objetos - 2019.11.08 at 11h 58m 45s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_solicita_id_objetos" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcular_posicionamento - 2019.11.08 at 11h 59m 19s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_posicionamento" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento - 2019.11.08 at 12h 14m 24s.xml">
-      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento - 2019.11.08 at 12h 15m 59s.xml">
       <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento" configurationId="tests" />
     </history-entry>
@@ -284,17 +271,26 @@
     <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_calcular_posicionamento - 2019.11.08 at 12h 28m 57s.xml">
       <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_calcular_posicionamento" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_mudanca_de_margem_calcular_posicionamento - 2019.11.19 at 09h 30m 50s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_mudanca_de_margem_calcular_posicionamento - 2019.11.19 at 09h 31m 07s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TesteClasse_Posicionamento_TesteClasse_Posicionamento_teste_mudanca_de_margem_calcular_posicionamento - 2019.11.19 at 09h 31m 10s.xml">
+      <configuration name="Unittests for TesteClasse_Posicionamento.TesteClasse_Posicionamento.teste_mudanca_de_margem_calcular_posicionamento" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48711342" visible="true" weight="0.24944155" />
-      <window_info id="Structure" order="1" sideWeight="0.5128866" side_tool="true" weight="0.24944155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48615918" visible="true" weight="0.19583023" />
+      <window_info id="Structure" order="1" sideWeight="0.51384085" side_tool="true" visible="true" weight="0.19583023" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,18 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Posicionamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Controlador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -420,6 +406,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testes/TesteClasse_Controlador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
