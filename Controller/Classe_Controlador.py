@@ -12,7 +12,9 @@ class Classe_Controlador:
 
     def detectar_objetos(self):
         dados_brutos = self.solicita_dados_serial()
-
+        coordenadas = self.solicita_dados_posicionamento(dados_brutos)
+        objetos_detectados = self.processa_objs_e_coordenadas(coordenadas)
+        return objetos_detectados
     def solicita_dados_serial(self):
         obj_comunicacao = Classe_Comunicacao(porta = self.porta_serial,baudrate = self.baud_rate)
         dados_brutos = obj_comunicacao.obter_dados_brutos()
@@ -23,5 +25,6 @@ class Classe_Controlador:
         obj_posicionamento = Classe_Posicionamento(distancia_S1_S2 = self.distanciaS1_S2, distanciaS2_S3 = self.distanciaS2_S3)
         return obj_posicionamento.calcular_posicionamento(dados_brutos = dados_brutos)
 
-    def processa_objs_e_coordenadas(self): #parte grafica
-        pass
+    def processa_objs_e_coordenadas(self, coordenadas):
+        obj_detec = Classe_OBJ_Detec()
+        return obj_detec.identificar_objetos(coordenadas)
