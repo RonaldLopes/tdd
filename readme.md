@@ -25,6 +25,12 @@ Toda a documentação referente à parte de testes automatizados encontra-se no 
 Para instalar as dependências, utilize o seguinte comando:
 > pip install -r requirements.txt
 
-Para rodar os testes, acesse o diretório "Testes", utilize o comando "green" seguido do nome do arquivo referente ao código de teste.
+Para rodar os testes, acesse o diretório raiz e utilize o comando "green Teste/" seguido do nome do arquivo referente ao código de teste. Ex:
+
+> green Teste/TesteClasse_Posicionamento.py
+
+Para executar todas as classes de teste, utilize o comando:
+
+>> green Teste/*
 
 OBS: Recomenda-se o uso da IDE Pycharm para executar e manipular o código, visto que sua integração com a parte de testes automatizados é nativa e fornece os dados em uma forma simples de visualização.
