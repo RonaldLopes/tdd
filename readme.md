@@ -31,6 +31,6 @@ Para rodar os testes, acesse o diretório raiz e utilize o comando "green Teste/
 
 Para executar todas as classes de teste, utilize o comando:
 
->> green Teste/*
+> green Teste/*
 
 OBS: Recomenda-se o uso da IDE Pycharm para executar e manipular o código, visto que sua integração com a parte de testes automatizados é nativa e fornece os dados em uma forma simples de visualização.
